@@ -1,0 +1,28 @@
+.first {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  border-radius: 50%;
+}
+
+.webpack-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.webpack-img div {
+  width: 230px;
+  height: 230px;
+}
+
+.webpack-img div.box1 {
+  background: url(../assets/1.png) no-repeat center/contain;
+}
+
+.webpack-img div.box2 {
+  background: url(../assets/2.png) no-repeat center/contain;
+}
+
+.webpack-img div.box3 {
+  background: url(../assets/3.png) no-repeat center/contain;
+}
